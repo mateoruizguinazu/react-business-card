@@ -1,7 +1,9 @@
+import profilePic from "../assets/profile-pic.jpeg"
+
 export default function About() {
     return (
         <header>
-            <img className="about-img" src="src/assets/profile-pic.jpeg" alt="Profile picture of Mateo."/>
+            <img className="about-img" src={profilePic} alt="Profile picture of Mateo."/>
             <div className="about-info">
                 <h1 className="about-name">Mateo Ruiz Guinazu</h1>
                 <h2 className="about-role">Design Engineer</h2>
